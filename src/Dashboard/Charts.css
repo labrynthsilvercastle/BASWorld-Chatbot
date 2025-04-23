@@ -1,0 +1,26 @@
+
+.container {
+    padding: 20px;
+}
+
+.button-container {
+    margin-bottom: 20px;
+}
+
+.chart-title {
+    margin-top: 20px;
+}
+
+.chart-container {
+    margin-bottom: 100px;
+    width: 1000px;
+    height: 1000px;
+}
+
+.date-info {
+    margin-bottom: 20px;
+}
+.employee-data-desc{
+    text-align: center;
+}
+

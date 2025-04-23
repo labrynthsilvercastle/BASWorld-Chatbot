@@ -1,0 +1,48 @@
+.faq-table {
+    width: 100%;
+}
+
+.faq-table td {
+    padding: 5px;
+    text-align: left;
+}
+
+.faq-table .toggle-buttons {
+    text-align: right;
+}
+
+.faq-table .toggle-buttons button {
+    margin-left: 5px;
+}
+
+.form-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container label {
+    margin-bottom: 10px;
+}
+
+.form-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    resize: vertical;
+    text-align: left;
+}
+
+
+.form-container button {
+    width: 100%;
+    padding: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #45a049;
+}

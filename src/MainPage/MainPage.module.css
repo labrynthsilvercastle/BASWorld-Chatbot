@@ -1,0 +1,125 @@
+/* Chatbot wrapper stays fixed at the bottom left */
+.chatbot {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  z-index: 1000;
+}
+
+/* Specific styles for the toggle button if necessary */
+.chatbotButton {
+  position: fixed;
+  bottom: 10px; /* Adjust as needed */
+  right: 10px; /* Adjust as needed */
+  z-index: 1000;
+}
+
+/* Other styles */
+.react-chatbot-kit-chat-container {
+  box-shadow: 0px 4px 8px 0px rgba(32, 28, 28, 0.5);
+}
+
+.mainPage {
+  padding: 2rem;
+  background-color: white;
+  color: blue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  right: 0;
+  left: 0;
+  width: 100%;
+}
+svg {
+    fill:#1da15e
+  
+}
+.chatIcon{
+  display:grid;
+  height:10vh;
+  width:10vh;
+  padding:15px;
+  margin:10px;
+  border-radius: 360px;
+  background-color: #D9DAE1;
+  align-items: center;
+  align-content: center;
+}
+.chatIcon:hover{
+border:solid black 1px
+}
+
+.splitBlock{
+  display: grid;
+  grid-template-columns: 65% 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+      "a b"
+      "a c";
+  grid-column-gap: 1em;
+  column-gap: 1em;
+  row-gap: 1em;
+  margin: 3em 0 7.1428571429rem;
+  height:60vh !important;
+}
+.videoBanner {
+  grid-area: a;
+  height: 100%;
+  background-blend-mode: multiply;
+  border-radius: 16px;
+  position: relative;
+  overflow: hidden;
+}
+.titleWrapper{
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 64px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  box-sizing: border-box;
+font-family: 'Titillium Web';
+font-weight: bold;
+
+}
+
+video{
+  width: 100%;
+  height: 100% !important;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.secondSplit{
+  grid-area:b;
+height:100%;
+  border-radius: 16px;
+    padding: 3rem 2.8571428571rem 2.8571428571rem;
+    background: #222;
+    display: inline-block;
+    color:white;
+    font-family:'Titillium Web';
+    font-weight: bold;
+}
+
+.thirdSplit{
+  grid-area:c;
+  height: 100%;
+    border-radius: 16px;
+    padding: 3rem 2.8571428571rem 2.8571428571rem;
+    background: #222;
+    display: inline-block;
+    color:white;
+    font-family:'Titillium Web';
+    font-weight: bold;
+
+}

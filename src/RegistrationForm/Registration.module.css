@@ -1,0 +1,340 @@
+.mainPage {
+    padding: 2rem;
+    background-color: #1da15e;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 1000px;
+}
+
+.Example {
+    margin-top: 0;
+    font-size: 24px;
+}
+
+.Form_Container {
+    background-color: white !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.Input_group {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0;
+    justify-content: center;
+
+}
+.Input_name_v2{
+
+}
+.Input_name_v2::placeholder {
+    font-size: 18px;
+}
+.Input_name::placeholder {
+    font-size: 12px;
+}
+
+.Input_name {
+    font-size: 12px;
+
+}
+
+.Placeholder {
+    font-size: 14px;
+    margin-bottom: 0;
+    text-align: left;
+    justify-content: left;
+    display: flex;
+    flex-direction: row;
+}
+
+.Input_group_v_2{
+    justify-content: center;
+    align-items: center;
+}
+
+.Input_template {
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+
+}
+
+.Logo {
+    margin-top: 10px;
+    height: 30px;
+    width: 200px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+@media only screen and (min-width: 1920px) {
+    /* Adjustments for 1920x1080 */
+    .Example{
+        font-size: 32px;
+        margin-bottom: 0;
+        padding-left: 40px;
+    }
+
+    .Input_name_v2{
+        font-size: 32px;
+    }
+    .Register_button{
+        transform: scale(2);
+        padding-top: 10px;
+        padding-bottom: 20px;
+        margin-left: 268px;
+    }
+    .Input_name_v2::placeholder {
+        font-size: 28px;
+    }
+    .Input_name::placeholder {
+        font-size: 18px;
+    }
+
+    .Input_name {
+        font-size: 20px;
+
+    }
+
+    .Placeholder {
+        font-size: 28px;
+        margin-bottom: 0;
+        text-align: left;
+        justify-content: left;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .Input_group_v_2{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Input_template {
+        display: flex;
+        flex-direction: column;
+        margin: 40px;
+
+    }
+
+    .Logo {
+        margin-top: 25px;
+        height: 30px;
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 200px;
+    }
+}
+
+@media only screen and (min-width: 1366px) and (max-width: 1919px) {
+    /* Adjustments for 1366x768 */
+    .Example{
+        font-size: 28px;
+        margin-bottom: 0;
+        padding-left: 30px;
+    }
+
+    .Input_name_v2{
+        font-size: 22px;
+    }
+    .Register_button{
+        transform: scale(1.7);
+        margin-top: 15px;
+        margin-bottom: 20px;
+        margin-left: 200px;
+    }
+    .Input_name_v2::placeholder {
+        font-size: 24px;
+    }
+    .Input_name::placeholder {
+        font-size: 16px;
+    }
+
+    .Input_name {
+        font-size:16px;
+
+    }
+
+    .Placeholder {
+        font-size: 24px;
+        margin-bottom: 0;
+        text-align: left;
+        justify-content: left;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .Input_group_v_2{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Input_template {
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .Logo {
+
+        margin-top: 10px;
+        height: 45px;
+        width: 250px;
+        margin-left: 100px;
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1365px) {
+    /* Adjustments for 1280x1024 */
+    .Example{
+        font-size: 28px;
+        margin-bottom: 0;
+        padding-left: 30px;
+    }
+
+    .Input_name_v2{
+        font-size: 22px;
+    }
+    .Register_button{
+        transform: scale(1.7);
+        margin-top: 15px;
+        margin-bottom: 20px;
+        margin-left: 200px;
+    }
+    .Input_name_v2::placeholder {
+        font-size: 24px;
+    }
+    .Input_name::placeholder {
+        font-size: 16px;
+    }
+
+    .Input_name {
+        font-size:16px;
+
+    }
+
+    .Placeholder {
+        font-size: 24px;
+        margin-bottom: 0;
+        text-align: left;
+        justify-content: left;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .Input_group_v_2{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Input_template {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .Logo {
+
+        margin-top: 25px;
+        height: 20px;
+        width: 150px;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        margin-left: 190px;
+    }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 767px) {
+    /* Adjustments for 360x800 */
+    .Example{
+        font-size: 16px;
+        margin-bottom: 0;
+        padding-left: 20px;
+
+    }
+
+    .Input_name_v2{
+        font-size: 14px;
+    }
+    .Register_button{
+        transform: scale(1.2);
+        margin-top: 5px;
+        margin-bottom: 10px;
+        margin-left: 100px;
+    }
+    .Input_name_v2::placeholder {
+        font-size: 16px;
+    }
+    .Input_name::placeholder {
+        font-size: 16px;
+    }
+
+    .Input_name {
+        font-size: 20px;
+        padding: 0;
+        margin: 0;
+
+    }
+
+    .Placeholder {
+        font-size: 14px;
+        margin-bottom: 0;
+        text-align: left;
+        justify-content: left;
+        display: flex;
+        flex-direction: row;
+    }
+    .Input_group{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+    .Input_group_v_2{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Input_template {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .Logo {
+        transform: scale(0.7);
+        margin-top: 10px;
+        height: 60px;
+        width: 200px;
+    }
+}
+
+@media only screen and (min-width: 390px) and (max-width: 479px) {
+    /* Adjustments for 390x844 */
+    .Container {
+        margin-right: 120px;
+    }
+}

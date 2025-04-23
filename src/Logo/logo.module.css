@@ -1,0 +1,64 @@
+button{
+  background-color: transparent;
+}
+
+
+.stickyHeader {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: white;
+    padding: 1rem 0 2em 0;
+    width:100%;
+    left:0;
+    right:0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:100px;
+
+  }
+  
+  .logoContainer {
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .logoImage {
+    width: 100%;
+    max-width: 20rem;
+    transition: width 1s ease;
+  }
+  
+  .logoImage.hide {
+    width: 0;
+  }
+
+  
+  .custom-navbar__button{
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    background-color: transparent;
+  }
+
+  .custom-navbar__button img {
+    height: 2rem;
+    width: 2rem;
+  }
+  
+  .custom-navbar__right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .bw_btn_black {
+    background-color: #1d1d1a!important;
+    font-size: 1rem;
+    color: #fff;
+    padding: .7142857143rem 1.1428571429rem;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}

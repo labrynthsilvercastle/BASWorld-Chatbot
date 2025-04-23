@@ -1,0 +1,83 @@
+.Login {
+    position: relative;
+}
+.Custom_Register_Button{
+    font-size: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: inherit;
+    margin: 0;
+}
+.Login_button{
+    padding-top: 0;
+}
+.Avatar{
+
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    transform: scale(2);
+    margin-right: 8px;
+}
+.DropdownContent{
+    display: flex;
+    flex-direction: column;
+
+}
+.DropForm {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    margin-left: 0;
+    background-color: white;
+    width: 150px;
+    height: 160px;
+}
+.PasswordInput input {
+    width: calc(100% - 20px);
+    margin-bottom: 10px;
+}
+.EmailInput input{
+    width: calc(100% - 20px);
+}
+
+.Placeholder{
+    justify-content: left;
+    text-align: left;
+    padding-left: 10px;
+    margin-bottom: 0;
+    font-size: 10px;
+}
+
+.Wrapper{
+    display: flex;
+    flex-direction: row;
+
+}
+.Input_Placeholder_Check{
+    margin-bottom: -10px;
+    padding-bottom: -10px;
+}
+.Input_Placeholder_Check[type="checkbox"] {
+    transform: scale(0.9);
+    margin-bottom: -10px;
+    padding-bottom: -10px;
+}
+.Hide_Password{
+
+    justify-content: right;
+    text-align: right;
+    margin-top: 5px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-left: 25px;
+    font-size: 6px;
+}
+.LoginButton{
+    font-size: 20px;
+
+}
+.LoginForm{
+
+}

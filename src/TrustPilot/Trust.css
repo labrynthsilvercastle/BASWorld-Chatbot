@@ -1,0 +1,28 @@
+.Review{
+    background-color: #201c1c;
+    align-items: center;
+    width:100%;
+    top: 0;
+    z-index: 100;
+    padding:0.5rem;
+    width:100%;
+    left:0;
+    right:0;
+    display: flex;
+    justify-content: center;
+    color:white;
+    height:fit-content;
+    position:sticky;
+}
+.Sticky_Trust{
+    align-items: center;
+    width:100%;
+    position:sticky;
+    top: 0;
+    z-index: 100;
+    width:100%;
+    left:0;
+    right:0;
+    justify-content: center;
+    box-shadow: 0px 4px 8px 0px rgba(32, 28, 28, 0.5);
+}
