@@ -24,8 +24,6 @@ This application serves as the frontend interface for BAS World, allowing users 
 - **WebSocket** - For real-time communication
 - **Axios** - Promise-based HTTP client
 
-
-
 ## 📁 Project Structure
 
 - **src/APIs/**: API services for backend communication
@@ -59,19 +57,3 @@ The application implements:
 ## 📱 Responsive Design
 
 The application is fully responsive and optimized for all device sizes, from mobile phones to desktop computers.
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📄 License
-
-[Add license information here]
-
-## 📞 Contact
-
-[Add contact information here]
